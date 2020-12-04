@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="?attr/itemColor"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/dashThermostatContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dashItemThermostatName"
+            style="@style/ItemTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/dashItemThermostatSeekBar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/dashItemThermostatTarget"
+            tools:text="Thermostat" />
+
+        <com.lukelorusso.verticalseekbar.VerticalSeekBar
+            android:id="@+id/dashItemThermostatSeekBar"
+            android:layout_width="30dp"
+            android:layout_height="130dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/dashItemThermostatName"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/dashItemThermostatTarget"
+            app:vsb_bar_corner_radius="5dp"
+            app:vsb_bar_width="30dp"
+            app:vsb_show_thumb="false" />
+
+        <TextView
+            android:id="@+id/dashItemThermostatTarget"
+            style="@style/ItemTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center_vertical"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@+id/dashItemThermostatSeekBar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="20" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

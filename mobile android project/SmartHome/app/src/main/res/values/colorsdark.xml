@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="eerieBlack">#222222</color>
+    <color name="spaceCadet">#2E3160</color>
+
+    <color name="darkBlueGrey">#5D6087</color>
+    <color name="independenceGrey">#464866</color>
+    <color name="blueBell">#9598C3</color>
+    <color name="shadowBlue">#818DA6</color>
+    <color name="spanishGrey">#959595</color>
+    <color name="davyGrey">#5E5E5E</color>
+    <color name="dazzledBlue">#385D88</color>
+    <color name="btnPowerStartColor">#497BB4</color>
+</resources>

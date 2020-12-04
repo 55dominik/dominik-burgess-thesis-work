@@ -1,0 +1,31 @@
+// "index.js" file to be put in "functions" folder of firebase CLI directory
+
+
+const functions = require('firebase-functions');
+
+const admin = require('firebase-admin');
+admin.initializeApp(functions.config().firebase);
+
+exports.sendNotificationWhenMessage = functions.database.ref('/notificationForwarder/{deviceId}')
+    .onWrite((change, context) => {
+        console.log('Push notification event triggered');
+
+        //  Get the current value of what was written to the Realtime Database.
+        const notificationObject = change.after.val();
+        var promises = [];
+        if (notificationObject !== null) {
+            // Create a notification
+            const payload = {
+                notification: {
+                    title: notificationObject.notificationHeader,
+                    body: notificationObject.notificationMessage
+                }
+            };
+            var dataRef = admin.database().ref(`/notificationForwarder/${context.params.deviceId}`);
+            dataRef.remove();
+
+            promises.push(admin.messaging().sendToTopic(context.params.deviceId, payload));
+        }
+
+        return Promise.all(promises);
+});

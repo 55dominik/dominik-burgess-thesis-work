@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <top.defaults.colorpicker.ColorPickerView
+        android:id="@+id/colourPicker"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:enableAlpha="false"
+        app:enableBrightness="false" />
+
+    <ToggleButton
+        android:id="@+id/whiteSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="@string/white"
+        android:textOn="@string/rgb"
+        android:layout_gravity="center"/>
+</FrameLayout>

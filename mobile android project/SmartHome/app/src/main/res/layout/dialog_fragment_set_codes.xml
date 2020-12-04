@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="300dp">
+
+<!--    This is needed so keyboard appears when edittext is used in recyclerview-->
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/setCodesRV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

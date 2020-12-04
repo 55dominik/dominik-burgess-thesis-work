@@ -1,0 +1,39 @@
+Please note: some programs may require slight modifications for the specific device type
+
+device_base:
+	Use this project to create new devices using the frame provided
+
+device_on_off_switch:
+	Light
+	Kettle
+	Socket
+	Cooler
+	Door lock
+
+device_dimmable_rgb_light:
+	RGB Light
+	Dimmable light	-set HAS_RGB to false on line 25
+	Blinds		-set HAS_RGB to false on line 25
+
+device_value_sensor:
+	Temperature sensor	-this is the current setup, device may have to be changed for other types
+	Water level sensor
+	Moisture sensor
+	Humidity sensor
+	Integer sensor
+
+device_on_off_sensor:
+	Boolean sensor
+	Motion sensor
+	Door sensor
+	Water presence sensor
+
+device_ir_remote:
+	IR remote
+	RGB remote
+
+device_coffee_maker:
+	Coffee
+
+device_thermostat:
+	Thermostat

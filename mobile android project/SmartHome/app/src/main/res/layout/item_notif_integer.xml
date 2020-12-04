@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/boolNotifContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginBottom="16dp"
+    app:cardBackgroundColor="?attr/itemColor"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp">
+
+
+        <EditText
+            android:id="@+id/intNotifNameEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:ems="10"
+            android:textColor="?attr/onItemTextColor"
+            android:inputType="textPersonName"
+            tools:text="Name"
+            app:layout_constraintEnd_toStartOf="@+id/intNotifActiveSwitch"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
+            android:id="@+id/intNotifActiveSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/intNotifNameEdit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/intNotifLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/notify_when_sensor_value"
+            style="@style/ItemTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/intNotifNameEdit" />
+
+        <RadioGroup
+            android:id="@+id/intNotifRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/intNotifLabel">
+
+            <RadioButton
+                android:id="@+id/intNotifGreaterRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ItemTextView"
+                android:text="@string/greater_than" />
+
+            <RadioButton
+                android:id="@+id/intNotifEqualsRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ItemTextView"
+                android:text="@string/equals" />
+
+            <RadioButton
+                android:id="@+id/intNotifLessRadio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/ItemTextView"
+                android:text="@string/less_than" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/intNotifValueLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/value"
+            style="@style/ItemTextView"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@+id/intNotifValueEdit"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/intNotifValueEdit" />
+
+        <EditText
+            android:id="@+id/intNotifValueEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:textColor="?attr/onItemTextColor"
+            android:inputType="number"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/intNotifValueLabel"
+            app:layout_constraintTop_toBottomOf="@+id/intNotifRadioGroup" />
+
+        <TextView
+            android:id="@+id/intNotifMessageLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/message"
+            style="@style/ItemTextView"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toStartOf="@+id/intNotifMessageButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/intNotifValueEdit" />
+
+        <Button
+            android:id="@+id/intNotifMessageButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            style="@style/Button"
+            android:text="@string/edit"
+            app:layout_constraintBottom_toBottomOf="@+id/intNotifMessageLabel"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/intNotifMessageLabel" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

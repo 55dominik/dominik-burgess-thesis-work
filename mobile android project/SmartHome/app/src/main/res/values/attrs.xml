@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="bgColor" format="color"/>
+    <attr name="itemColor" format="color"/>
+    <attr name="onBgTextColor" format="color"/>
+    <attr name="onItemTextColor" format="color"/>
+    <attr name="bottomNavColor" format="color"/>
+    <attr name="headerImage" format="reference"/>
+
+    <!-- Button colours -->
+    <attr name="btnStartColor" format="color"/>
+    <attr name="btnEndColor" format="color"/>
+    <attr name="btnStartColorPressed" format="color"/>
+    <attr name="btnEndColorPressed" format="color"/>
+    <attr name="btnStartColorInactive" format="color"/>
+    <attr name="btnEndColorInactive" format="color"/>
+    <attr name="btnPowerStartColor" format="color"/>
+    <attr name="btnPowerEndColor" format="color"/>
+
+    <attr name="bgStartColor" format="color"/>
+    <attr name="bgEndColor" format="color"/>
+</resources>

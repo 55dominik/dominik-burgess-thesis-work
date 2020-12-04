@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/boolNotifContainer"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="10dp"
+    app:cardBackgroundColor="?attr/itemColor"
+    android:layout_marginBottom="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginEnd="16dp">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="16dp">
+
+
+        <EditText
+            android:id="@+id/boolNotifNameEdit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            tools:text="Name"
+            android:textColor="?attr/onItemTextColor"
+            app:layout_constraintEnd_toStartOf="@+id/boolNotifActiveSwitch"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Switch
+            android:id="@+id/boolNotifActiveSwitch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintBottom_toBottomOf="@+id/boolNotifNameEdit"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/boolNotifLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/notify_when_sensor_is"
+            style="@style/ItemTextView"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/boolNotifNameEdit" />
+
+        <CheckBox
+            android:id="@+id/boolNotifTrueCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/true_active"
+            android:textColor="?attr/onItemTextColor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/boolNotifLabel" />
+
+        <CheckBox
+            android:id="@+id/boolNotifFalseCheckbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="@string/false_inactive"
+            android:textColor="?attr/onItemTextColor"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/boolNotifTrueMessageEditButton" />
+
+        <TextView
+            android:id="@+id/boolNotifTrueMessageText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/message_default"
+            style="@style/ItemTextView"
+            app:layout_constraintEnd_toStartOf="@+id/boolNotifTrueMessageEditButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/boolNotifTrueCheckBox" />
+
+        <Button
+            android:id="@+id/boolNotifTrueMessageEditButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="@string/edit"
+            style="@style/Button"
+            app:layout_constraintBottom_toBottomOf="@+id/boolNotifTrueMessageText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/boolNotifTrueMessageText" />
+
+        <TextView
+            android:id="@+id/boolNotifFalseMessageText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/message_default"
+            style="@style/ItemTextView"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/boolNotifFalseMessageEditButton"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/boolNotifFalseCheckbox" />
+
+        <Button
+            android:id="@+id/boolNotifFalseMessageEditButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:text="@string/edit"
+            style="@style/Button"
+            app:layout_constraintBottom_toBottomOf="@+id/boolNotifFalseMessageText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/boolNotifFalseMessageText" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

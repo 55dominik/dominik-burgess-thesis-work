@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contentLightControl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00000000"
+    android:paddingBottom="32dp">
+
+    <EditText
+        android:id="@+id/lightName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="100dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="?attr/onBgTextColor"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:text="Living room light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:weightSum="5">
+
+        <include
+            layout="@layout/colorpicker_whitebutton"
+            android:id="@+id/colourPickerContainer"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center">
+
+            <com.lukelorusso.verticalseekbar.VerticalSeekBar
+                android:id="@+id/brightnessBar"
+                android:layout_width="match_parent"
+                android:layout_height="230dp"
+                android:layout_gravity="end"
+                android:visibility="visible"
+
+                app:vsb_bar_background="#eeeeee"
+                app:vsb_bar_corner_radius="30dp"
+                app:vsb_bar_progress_gradient_end="#4dd0e1"
+                app:vsb_bar_progress_gradient_start="#03a2ba"
+                app:vsb_bar_width="60dp"
+                app:vsb_show_thumb="true"
+                app:vsb_thumb_container_corner_radius="5dp"
+                app:vsb_thumb_container_tint="#ffffff" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lightSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="0dp"
+        app:lottie_rawRes="@raw/light_bulb_white_anim"
+        app:lottie_loop="false"
+        app:lottie_autoPlay="false" />
+
+</LinearLayout>

@@ -1,0 +1,112 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="LightTheme" parent="AppTheme">
+        <item name="headerImage">@drawable/blueberry</item>
+
+        <!-- Text        -->
+        <item name="onBgTextColor">@color/white</item>
+        <item name="onItemTextColor">@color/white</item>
+
+        <!-- Backgrounds -->
+        <item name="bgColor">@color/lapisLazuli</item>
+        <item name="itemColor">@color/maximumBlue</item>
+        <item name="bottomNavColor">@color/violet</item>
+        <item name="bgStartColor">@color/steelBlue</item>
+        <item name="bgEndColor">@color/lapisLazuli</item>
+
+        <!-- Button      -->
+        <item name="btnStartColor">@color/vividSkyBlue</item>
+        <item name="btnEndColor">@color/maximumBlue</item>
+
+        <item name="btnStartColorPressed">@color/blueGreen</item>
+        <item name="btnEndColorPressed">@color/tealBlue</item>
+
+        <item name="btnStartColorInactive">@color/opal</item>
+        <item name="btnEndColorInactive">@color/steelTeal</item>
+
+        <item name="btnPowerEndColor">@color/carolinaBlue</item>
+        <item name="btnPowerStartColor">@color/blueSapphire</item>
+
+    </style>
+    <style name="DarkTheme" parent="AppTheme">
+        <item name="headerImage">@drawable/blueberry</item>
+
+<!--        Text-->
+        <item name="onBgTextColor">@color/white</item>
+        <item name="onItemTextColor">@color/white</item>
+
+<!--        Backgrounds-->
+        <item name="bottomNavColor">@color/eerieBlack</item>
+        <item name="bgColor">@color/black</item>
+        <item name="bgStartColor">@color/black</item>
+        <item name="bgEndColor">@color/black</item>
+        <item name="itemColor">@color/spaceCadet</item>
+
+<!--        Button-->
+        <item name="btnStartColor">@color/darkBlueGrey</item>
+        <item name="btnEndColor">@color/independenceGrey</item>
+        <item name="btnStartColorPressed">@color/blueBell</item>
+        <item name="btnEndColorPressed">@color/shadowBlue</item>
+        <item name="btnStartColorInactive">@color/spanishGrey</item>
+        <item name="btnEndColorInactive">@color/davyGrey</item>
+        <item name="btnPowerEndColor">@color/dazzledBlue</item>
+        <item name="btnPowerStartColor">@color/steelBlue</item>
+    </style>
+
+    <style name="BgTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">?attr/onBgTextColor</item>
+    </style>
+    <style name="ItemTextView" parent="android:Widget.TextView">
+        <item name="android:textColor">?attr/onItemTextColor</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Button" parent="android:Widget.Button">
+        <item name="android:background">@drawable/rounded_button</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ButtonPower" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">@drawable/rounded_button_power</item>
+        <item name="android:src">@drawable/ic_power</item>
+    </style>
+
+    <style name="RedButton" parent="android:Widget.Button">
+        <item name="android:background">@drawable/rounded_button_red</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="EditText" parent="android:Widget.EditText">
+        <item name="android:background">@drawable/rounded_edittext</item>
+    </style>
+    
+    <style name="FullScreenDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <!-- No backgrounds, titles or window float -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:background">?attr/bgColor</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+    </style>
+
+</resources>

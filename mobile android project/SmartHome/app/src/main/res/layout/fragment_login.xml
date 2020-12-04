@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/loginEmailEdit"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:paddingStart="16dp"
+        android:hint="@string/email_address"
+        android:paddingEnd="16dp"
+        android:singleLine="true"
+        android:textColor="#353535"
+        app:layout_constraintBottom_toTopOf="@+id/loginPasswordEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginSignInLabel"
+        tools:text="emailaddress@email.com" />
+
+    <EditText
+        android:id="@+id/loginPasswordEdit"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        android:hint="@string/password"
+        android:paddingEnd="16dp"
+        android:singleLine="true"
+        android:textColor="#353535"
+        app:layout_constraintBottom_toTopOf="@+id/loginButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginEmailEdit"
+        tools:text="emailaddress@email.com" />
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="24dp"
+        style="@style/Button"
+        android:text="@string/sign_in"
+        app:layout_constraintBottom_toTopOf="@+id/loginForgotPasswordLink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginPasswordEdit" />
+
+    <TextView
+        android:id="@+id/loginForgotPasswordLink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/forgot_your_password"
+        style="@style/BgTextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/loginSignUpLink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginButton" />
+
+    <TextView
+        android:id="@+id/loginSignUpLink"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/dont_have_an_account"
+        android:textAlignment="center"
+        style="@style/BgTextView"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginForgotPasswordLink" />
+
+    <TextView
+        android:id="@+id/loginSignInLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/sign_in"
+        style="@style/BgTextView"
+        android:textAlignment="viewStart"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/loginEmailEdit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.74"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

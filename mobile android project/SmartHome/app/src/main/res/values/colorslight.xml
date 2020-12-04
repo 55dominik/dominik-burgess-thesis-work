@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="violet">#3F4C70</color>
+    <color name="lapisLazuli">#3B618E</color>
+    <color name="steelBlue">#497BB4</color>
+    <color name="maximumBlue">#52B0D3</color>
+
+    <color name="vividSkyBlue">#61CDF4</color>
+    <color name="blueGreen">#489AB8</color>
+    <color name="tealBlue">#316C81</color>
+    <color name="opal">#C2D6D6</color>
+    <color name="steelTeal">#759191</color>
+    <color name="carolinaBlue">#2e9cca</color>
+    <color name="blueSapphire">#29648a</color>
+</resources>

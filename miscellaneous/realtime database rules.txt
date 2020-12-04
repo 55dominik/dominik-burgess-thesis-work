@@ -1,0 +1,48 @@
+// The following JSON tree must be copied into the Firebase project's Realtime Database rules on the Firebase console
+// Alternatively: allow all read and write operations on the database IF ONLY USED FOR TESTING.
+
+{
+	"rules": 
+  {
+		"users": 
+    {
+			"$uid":  
+      {
+				".write": "$uid === auth.uid",
+				".read": "$uid === auth.uid"
+			}
+		},
+		"devices": 
+    {
+			"$did": 
+      {
+				".write": "newData.child('uid').val() == auth.uid || data.child('uid').val() == auth.uid",
+				".read": "data.child('uid').val() == auth.uid || $did == 'test'"
+			}
+		},
+		"scenes": 
+    {
+			"$sid": 
+      {
+				".write": "newData.child('sceneData').child('userId').val() == auth.uid || data.child('sceneData').child('userId').val() == auth.uid",
+				".read": "data.child('sceneData').child('userId').val() == auth.uid"
+			}
+		},
+		"notifications" :
+    {
+      "$did":
+      {
+        ".write": "data.child('userId').val() == auth.uid || newData.child('userId').val() == auth.uid",
+        ".read": "data.child('userId').val() == auth.uid"
+      }
+    },
+    "notificationForwarder" :
+    {
+      "$did":
+      {
+        ".write": "data.child('uid').val() == auth.uid || newData.child('uid').val() == auth.uid",
+        ".read": "data.child('uid').val() == auth.uid"
+      }
+    }
+	}
+}

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="32dp">
+
+
+        <ImageView
+            android:id="@+id/settingsAccountIcon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/baseline_settings_white_48"
+            app:layout_constraintBottom_toTopOf="@+id/settingsStatusCurrentEmail"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/settingsTitle"
+            app:layout_constraintVertical_chainStyle="packed" />
+
+        <TextView
+            android:id="@+id/settingsReconnectInstructions"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            style="@style/BgTextView"
+            android:text="@string/if_pi_cant_get_devices"
+            app:layout_constraintEnd_toEndOf="@+id/settingsReconnectPiButton"
+            app:layout_constraintStart_toStartOf="@+id/settingsReconnectPiButton"
+            app:layout_constraintTop_toBottomOf="@+id/settingsReconnectPiButton" />
+
+        <Button
+            android:id="@+id/settingsReconnectPiButton"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="32dp"
+            android:text="@string/reconnect_raspberry_pi"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/guideline" />
+
+        <TextView
+            android:id="@+id/settingsTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/settings_and_account"
+            style="@style/BgTextView"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/settingsAccountTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/account_settings"
+        style="@style/BgTextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsReconnectInstructions" />
+
+        <Button
+            android:id="@+id/settingsLogoutButton"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/sign_out"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/settingsChangeEmailButton" />
+
+    <Button
+        android:id="@+id/settingsResetPasswordButton"
+        style="@style/Button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/reset_password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsAccountTitle" />
+
+        <Button
+            android:id="@+id/settingsChangeEmailButton"
+            style="@style/Button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/change_email_address"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/settingsResetPasswordButton" />
+
+        <Button
+            android:id="@+id/settingsDeleteAccountButton"
+            style="@style/RedButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="@string/delete_account"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/settingsLogoutButton" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.3" />
+
+        <TextView
+            android:id="@+id/settingsStatusCurrentEmail"
+            style="@style/BgTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:singleLine="false"
+            app:layout_constraintBottom_toTopOf="@+id/settingsStatusTotalDevices"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/settingsAccountIcon"
+            tools:text="Logged in as: burgessdominik@gmail.com" />
+
+        <TextView
+            android:id="@+id/settingsStatusTotalDevices"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="16dp"
+            style="@style/BgTextView"
+            app:layout_constraintBottom_toTopOf="@+id/guideline"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/settingsStatusCurrentEmail"
+            tools:text="Number of devices: 5" />
+
+    <TextView
+        android:id="@+id/settingsAppearanceTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/appearance"
+        style="@style/BgTextView"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsDeleteAccountButton" />
+
+    <gb.dom55.bme.smarthome.views.LabeledSwitch
+        android:id="@+id/settingsNightModeSwitch"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/settingsAppearanceTitle" />
+
+
+        <TextView
+            android:id="@+id/settingsNightModeLabel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/toggle_night_mode"
+            style="@style/BgTextView"
+            app:layout_constraintBottom_toBottomOf="@+id/settingsNightModeSwitch"
+            app:layout_constraintEnd_toStartOf="@+id/settingsNightModeSwitch"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/settingsNightModeSwitch" />
+
+
+        <TextView
+            android:id="@+id/settingsNotificationTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/notifications"
+            style="@style/BgTextView"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/settingsNightModeLabel" />
+
+        <gb.dom55.bme.smarthome.views.LabeledSwitch
+            android:id="@+id/settingsNotificationsSwitch"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/settingsNotificationTitle" />
+
+
+        <TextView
+            android:id="@+id/settingsNotificationsSwitchLabel"
+            style="@style/BgTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/enable_disable_notif_text"
+            app:layout_constraintBottom_toBottomOf="@+id/settingsNotificationsSwitch"
+            app:layout_constraintEnd_toStartOf="@+id/settingsNotificationsSwitch"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/settingsNotificationTitle"
+            app:layout_constraintTop_toTopOf="@+id/settingsNotificationsSwitch" />
+
+        <gb.dom55.bme.smarthome.views.LabeledSwitch
+            android:id="@+id/settingsEmailNotificationsSwitch"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/settingsNotificationsSwitch" />
+
+        <TextView
+            android:id="@+id/settingsEmailNotifSwitchLabel"
+            style="@style/BgTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/receive_email_updates"
+            app:layout_constraintBottom_toBottomOf="@+id/settingsEmailNotificationsSwitch"
+            app:layout_constraintEnd_toStartOf="@+id/settingsEmailNotificationsSwitch"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/settingsEmailNotificationsSwitch" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/verifyLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/verify_your_account"
+        style="@style/BgTextView"
+        android:textAlignment="viewStart"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/verifyInstructions"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.75"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/verifyInstructions"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:singleLine="false"
+        android:text="@string/verification_link_sent_to_email"
+        style="@style/BgTextView"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/verifyConfirmButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verifyLabel" />
+
+    <Button
+        android:id="@+id/verifyConfirmButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="32dp"
+        android:text="@string/i_have_verified_my_account"
+        style="@style/Button"
+        app:layout_constraintBottom_toTopOf="@+id/verifySendEmailAgain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verifyInstructions" />
+
+    <TextView
+        android:id="@+id/verifySendEmailAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text="@string/resend_verification_email"
+        style="@style/BgTextView"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/verifyDifferentAccount"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verifyConfirmButton" />
+
+    <TextView
+        android:id="@+id/verifyDifferentAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:singleLine="false"
+        android:text="@string/sign_in_with_a_different_account"
+        style="@style/BgTextView"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/verifySendEmailAgain" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
