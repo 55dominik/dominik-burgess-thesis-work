@@ -21,10 +21,7 @@ enum class DeviceType(val type: Int) {
 
     DIMMABLE_LIGHT(3),
     BLINDS(30),
-
-
     RADIATOR(31),
-
 
     //
     BOOL_SENSOR(51),

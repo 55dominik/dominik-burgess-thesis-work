@@ -38,32 +38,7 @@ object DeviceManager {
 
         var factoryDevice: AbstractDevice? = null
         DeviceType.values().find { it.type == type }?.let { deviceType ->
-            factoryDevice = when(deviceType) {
-                DeviceType.RGBLIGHT -> RgbLight(deviceId, friendlyId)
-                DeviceType.LIGHT -> Light(deviceId, friendlyId)
-                DeviceType.DIMMABLE_LIGHT -> DimmableLight(deviceId, friendlyId)
-                DeviceType.BOOL_SENSOR -> BooleanSensor(deviceId, friendlyId)
-                DeviceType.INT_SENSOR -> IntegerSensor(deviceId, friendlyId)
-                DeviceType.NULL_DEVICE -> null
-                DeviceType.KETTLE -> Light(deviceId, friendlyId)
-                DeviceType.SOCKET -> Light(deviceId, friendlyId)
-                DeviceType.AIR_CON -> Light(deviceId, friendlyId)
-                DeviceType.DOOR_LOCK -> Light(deviceId, friendlyId)
-                DeviceType.IR_REMOTE -> IrRemote(deviceId, friendlyId)
-                DeviceType.RGB_IR_REMOTE -> IrRemote(deviceId, friendlyId)
-                DeviceType.TV_REMOTE -> IrRemote(deviceId, friendlyId)
-                DeviceType.COFFEE -> CoffeeMaker(deviceId, friendlyId)
-                DeviceType.BLINDS -> DimmableLight(deviceId, friendlyId)
-                DeviceType.RADIATOR -> DimmableLight(deviceId, friendlyId)
-                DeviceType.DOOR_SENSOR -> BooleanSensor(deviceId, friendlyId)
-                DeviceType.MOTION_SENSOR -> BooleanSensor(deviceId, friendlyId)
-                DeviceType.WATER_PRESENCE_SENSOR -> BooleanSensor(deviceId, friendlyId)
-                DeviceType.CELSIUS_SENSOR -> IntegerSensor(deviceId, friendlyId)
-                DeviceType.HUMIDITY_SENSOR -> IntegerSensor(deviceId, friendlyId)
-                DeviceType.WATER_LEVEL_SENSOR -> IntegerSensor(deviceId, friendlyId)
-                DeviceType.MOISTURE_SENSOR -> IntegerSensor(deviceId, friendlyId)
-                DeviceType.THERMOSTAT -> Thermostat(deviceId, friendlyId)
-            }
+            factoryDevice = AbstractDevice.getDeviceFromType(deviceType, deviceId, friendlyId)
         }
         factoryDevice?.let {
             getDeviceFromDeviceNode(it)

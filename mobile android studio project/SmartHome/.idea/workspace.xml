@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="Onlab" />
+        <option name="packageNamePattern" value="gb.dom55.bme.smarthome" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <device id="pixel_2" />
+        <device id="pixel" />
+        <target>android-29</target>
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Onlab" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e54c46b0-0a23-4dc0-91f4-60ab42100d1f" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="ce0718274a39433a01" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="layoutResourceFile_vertical" />
+        <option value="Kotlin Enum" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="Kotlin Interface" />
+        <option value="Kotlin Object" />
+        <option value="resourceFile" />
+        <option value="Kotlin File" />
+        <option value="valueResourceFile" />
+        <option value="UML Class" />
+        <option value="Kotlin Class" />
+        <option value="layoutResourceFile" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="4cd8f8d6e2f3243875147c4e3df45fd28932cad6" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="ProjectId" id="1YnV8HlCaESxbGGQpJV2cYpzbSM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DEBUGGABLE_DEVICE" value="samsung-sm_g950f-ce0718274a39433a01" />
+    <property name="DEBUGGABLE_PROCESS" value="gb.dom55.bme.smarthome" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="DefaultPlantUmlFileTemplate" value="UML Class" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="ce0718274a39433a01" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-06T19:48:51.267Z" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/androidTest/java/gb/dom55/bme/smarthome/login" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../raspberry pi android studio project/SmartHomePiController" />
+    <property name="not.eligible.for.single.variant.sync" value="true" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="gb.dom55.bme.smarthome.model" />
+      <recent name="gb.dom55.bme.smarthome.model.devices" />
+      <recent name="gb.dom55.bme.smarthome.dashboard.adapters.touchhelpers" />
+      <recent name="gb.dom55.bme.smarthome.dashboard.adapters" />
+      <recent name="gb.dom55.bme.smarthome.devicecontrol.adapters" />
+    </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="gb.dom55.bme.smarthome.Adapters.Sensors" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="gb.dom55.bme.smarthome.Model.Devices" />
+      <recent name="gb.dom55.bme.smarthome.Ui.DeviceControl.ControlFragments" />
+      <recent name="gb.dom55.bme.smarthome.Adapters.Devices" />
+      <recent name="gb.dom55.bme.smarthome.Ui.DeviceControl.SetupFragments" />
+      <recent name="gb.dom55.bme.smarthome.Ui.DeviceControl" />
+    </key>
+    <key name="android.template.packageName">
+      <recent name="gb.dom55.bme.smarthome.nearby" />
+      <recent name="gb.dom55.bme.smarthome" />
+      <recent name="gb.dom55.bme.smarthome.Ui" />
+      <recent name="gb.dom55.bme.smarthome.ui" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dominik\Documents\Szakdolgozat\SmartHomeRefactor\app\src\main\java\gb\dom55\bme\smarthome\devicecontrol\fragments" />
+      <recent name="C:\Users\Dominik\Documents\Szakdolgozat\SmartHomeRefactor\app\src\main\java\gb\dom55\bme\smarthome\login" />
+      <recent name="C:\Users\Dominik\Documents\Android\Onlab\SmartHome\app\src\main\res\mipmap-hdpi" />
+      <recent name="C:\Users\Dominik\Documents\Android\Onlab\SmartHome\app\src\main\res\raw" />
+      <recent name="C:\Users\Dominik\Documents\Android\Onlab\SmartHome\app\src\main\res\drawable-mdpi" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="gb.dom55.bme.smarthome.login" />
+      <recent name="gb.dom55.bme.smarthome" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dominik\Documents\Szakdolgozat\SmartHomeRefactor\app\src\androidTest\java\gb\dom55\bme\smarthome" />
+      <recent name="C:\Users\Dominik\Documents\Android\Onlab\SmartHome\app\src\main\res\drawable" />
+      <recent name="C:\Users\Dominik\Documents\Android\Onlab\SmartHome\app\src\main\res\layout" />
+      <recent name="C:\Users\Dominik\Documents\Android\Onlab\SmartHome\app\src\main\res\mipmap-xxhdpi" />
+      <recent name="C:\Users\Dominik\Documents\Android\Onlab\SmartHome\app\src\main\res\drawable-v24" />
+    </key>
+    <key name="android.template.parentActivityClass">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration name="PasswordTests" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="gb.dom55.bme.smarthome.login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="gb.dom55.bme.smarthome.login" />
+      <option name="MAIN_CLASS_NAME" value="gb.dom55.bme.smarthome.login.PasswordTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <useClassPathOnly />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogonActivityInstrum..." type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="gb.dom55.bme.smarthome.login.LogonActivityInstrumentationTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SharedPrefHelperKtTest" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="2" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="gb.dom55.bme.smarthome.SharedPrefHelperKtTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="attemptLoginWithou...()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="attemptLoginWithoutPassword" />
+      <option name="CLASS_NAME" value="gb.dom55.bme.smarthome.login.LogonActivityInstrumentationTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="attemptRegisterWit...()" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests" temporary="true" nameIsGenerated="true">
+      <module name="app" />
+      <option name="TESTING_TYPE" value="3" />
+      <option name="METHOD_NAME" value="attemptRegisterWithoutEmail" />
+      <option name="CLASS_NAME" value="gb.dom55.bme.smarthome.login.LogonActivityInstrumentationTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Android Instrumented Tests.attemptRegisterWit...()" />
+        <item itemvalue="Android Instrumented Tests.LogonActivityInstrum..." />
+        <item itemvalue="Android Instrumented Tests.attemptLoginWithou...()" />
+        <item itemvalue="Android Instrumented Tests.SharedPrefHelperKtTest" />
+        <item itemvalue="Android JUnit.PasswordTests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e54c46b0-0a23-4dc0-91f4-60ab42100d1f" name="Default Changelist" comment="" />
+      <created>1581411919435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581411919435</updated>
+      <workItem from="1589383040466" duration="683000" />
+      <workItem from="1589384807979" duration="5850000" />
+      <workItem from="1589446275852" duration="385000" />
+      <workItem from="1589465403146" duration="1012000" />
+      <workItem from="1589619141436" duration="26000" />
+      <workItem from="1589910850453" duration="889000" />
+      <workItem from="1590158928195" duration="93000" />
+      <workItem from="1605179803306" duration="202000" />
+      <workItem from="1605887617529" duration="51000" />
+    </task>
+    <task id="LOCAL-00001" summary="Simple rgb ui in viewpager. Displays the same on each page but these will change to Rules and RPi pin setup respectively">
+      <created>1582402572949</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582402572949</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created login screen with password reset option">
+      <created>1582459673777</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582459673777</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Registration screen complete">
+      <created>1582480375612</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1582480375612</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Logging in navigates to half finished rgblight activity">
+      <created>1582615731351</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1582615731351</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Basic model classes to get started on views for different devices and their rules">
+      <created>1582619224009</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1582619224009</updated>
+    </task>
+    <task id="LOCAL-00006" summary="New dashboard activity will be main hub for devices and rules">
+      <created>1582620134205</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1582620134205</updated>
+    </task>
+    <task id="LOCAL-00007" summary="New dashboard activity will be main hub for devices and rules">
+      <created>1582621838928</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1582621838928</updated>
+    </task>
+    <task id="LOCAL-00008" summary="As stated in excel logs for week 3">
+      <created>1583071012244</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1583071012244</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Skeleton for devices fragment on dashboard">
+      <created>1583223752303</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1583223752303</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Created view items for devices recyclerview. All are connected to database.">
+      <created>1583673947411</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1583673947411</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Last commit before major refactor works with interfaces">
+      <created>1583789507024</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583789507024</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Refactor device creation with interface">
+      <created>1584025873406</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1584025873406</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Bug fixes under device control activity">
+      <created>1584383677445</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1584383677445</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Basic settings for testing (log out, password reset).&#10;Created button style resource for less copy pasting.&#10;Created edittext style resource for less copy pasting.">
+      <created>1584390767977</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1584390767977</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Settings screen implementations. Settings screen unimplemented custom views. (Listeners are needed and a dark theme for the app) (design will happen later down the line)">
+      <created>1584475645873</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1584475645873</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Store recyclerview items order in room database.&#10;Finish status recycler view items.&#10;Create sensor device fragment.&#10;&#10;Start layout and fragment for device setup (pin or ip address).">
+      <created>1584644652443</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1584644652443</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Scenes. See excel for added features.&#10;Week 7&#10;Date 25/03/2020">
+      <created>1585164952214</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1585164952214</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Scenes. Start work on SceneManager to handle firebase copying of device data.&#10;Fnished recyclerview drag and drop. Swipe to dismiss not implemented yet (this will happen later with device deletion, in case data structures change).&#10;Changed NewSceneDialogFragment to just SceneDialogFragment. This is now also used to edit which devices are included in the scene. This is also how you can edit the name of the scene.">
+      <created>1585338167462</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1585338167463</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Finished scenes. Added dark mode.">
+      <created>1586251173043</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1586251173043</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Started implementing notifications plans.&#10;Updated device control pager to only have 2 pages when no notificattions are included with the device (like lamps)">
+      <created>1586287278583</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1586287278583</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Finished notifications ui and firebase etc">
+      <created>1586522620510</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1586522620510</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Update views with animations. Add logic to play animations properly.">
+      <created>1586526261631</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1586526261631</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Fixed views">
+      <created>1586527504777</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1586527504777</updated>
+    </task>
+    <task id="LOCAL-00024" summary="New device types, no new classes added">
+      <created>1587207395755</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1587207395755</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Added infra-red remote control device with customisable button codes.">
+      <created>1587229602501</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1587229602501</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Added coffee machine.&#10;Refactored code.&#10;Refactored package structure.&#10;Fixed crash on older android version.&#10;Added more columns support for tablets and larger screens.&#10;Extracted string resources.&#10;Exctracted colour resources from styles to seperate colours resource file.">
+      <created>1589566760187</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1589566760187</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Removed value event listener from device control activity when paused, so app doesnt crash">
+      <created>1601647111510</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1601647111510</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Made device controller fragments observer LiveData of viewmodel. Removed data change interface and listener">
+      <created>1601651057105</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1601651057105</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Removed room database for lists on the dashboard, adding and removing devices works as intended.">
+      <created>1602335394852</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1602335394852</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Remove Room database files used for device and sensor identifier storage">
+      <created>1602845351707</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1602845351707</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Dashboard layouts and views for Thermostat device">
+      <created>1602853048470</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1602853048470</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Added thermostat device control fragment with layout">
+      <created>1602856407900</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1602856407900</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Fix thermostat control fragment">
+      <created>1603033604076</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1603033604076</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Remedy IDE suggestions">
+      <created>1603035795021</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1603035795022</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Use reflection for notifications property name">
+      <created>1603443458787</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1603443458787</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Enable topic subscription for new devices">
+      <created>1603451151017</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1603451151017</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Add Door lock device, derivative of Light">
+      <created>1603898830814</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1603898830814</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Change email and password login to token based login for RPi">
+      <created>1604683728422</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1604683728422</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Transfer email and password using RSA encryption">
+      <created>1604703563891</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1604703563891</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Transfer email and password using RSA encryption">
+      <created>1605905397487</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1605905397487</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="Settings screen implementations. Settings screen unimplemented custom views. (Listeners are needed and a dark theme for the app) (design will happen later down the line)" />
+    <MESSAGE value="Store recyclerview items order in room database.&#10;Finish status recycler view items.&#10;Create sensor device fragment.&#10;&#10;Start layout and fragment for device setup (pin or ip address)." />
+    <MESSAGE value="Scenes. See excel for added features.&#10;Week 7&#10;Date 25/03/2020" />
+    <MESSAGE value="Scenes. Start work on SceneManager to handle firebase copying of device data.&#10;Fnished recyclerview drag and drop. Swipe to dismiss not implemented yet (this will happen later with device deletion, in case data structures change).&#10;Changed NewSceneDialogFragment to just SceneDialogFragment. This is now also used to edit which devices are included in the scene. This is also how you can edit the name of the scene." />
+    <MESSAGE value="Finished scenes. Added dark mode." />
+    <MESSAGE value="Started implementing notifications plans.&#10;Updated device control pager to only have 2 pages when no notificattions are included with the device (like lamps)" />
+    <MESSAGE value="Finished notifications ui and firebase etc" />
+    <MESSAGE value="Update views with animations. Add logic to play animations properly." />
+    <MESSAGE value="Fixed views" />
+    <MESSAGE value="New device types, no new classes added" />
+    <MESSAGE value="Added infra-red remote control device with customisable button codes." />
+    <MESSAGE value="Added coffee machine.&#10;Refactored code.&#10;Refactored package structure.&#10;Fixed crash on older android version.&#10;Added more columns support for tablets and larger screens.&#10;Extracted string resources.&#10;Exctracted colour resources from styles to seperate colours resource file." />
+    <MESSAGE value="Removed value event listener from device control activity when paused, so app doesnt crash" />
+    <MESSAGE value="Made device controller fragments observer LiveData of viewmodel. Removed data change interface and listener" />
+    <MESSAGE value="Removed room database for lists on the dashboard, adding and removing devices works as intended." />
+    <MESSAGE value="Remove Room database files used for device and sensor identifier storage" />
+    <MESSAGE value="Dashboard layouts and views for Thermostat device" />
+    <MESSAGE value="Added thermostat device control fragment with layout" />
+    <MESSAGE value="Fix thermostat control fragment" />
+    <MESSAGE value="Remedy IDE suggestions" />
+    <MESSAGE value="Use reflection for notifications property name" />
+    <MESSAGE value="Enable topic subscription for new devices" />
+    <MESSAGE value="Add Door lock device, derivative of Light" />
+    <MESSAGE value="Change email and password login to token based login for RPi" />
+    <MESSAGE value="Transfer email and password using RSA encryption" />
+    <option name="LAST_COMMIT_MESSAGE" value="Transfer email and password using RSA encryption" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="365" y="41" key="#&lt;template&gt;_of_Android_JUnit" timestamp="1606557407452">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="365" y="41" key="#&lt;template&gt;_of_Android_JUnit/0.0.1536.824@0.0.1536.824" timestamp="1606557407452" />
+    <state x="365" y="81" key="#PasswordTests" timestamp="1606557390113">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="365" y="81" key="#PasswordTests/0.0.1536.824@0.0.1536.824" timestamp="1606557390113" />
+    <state x="640" y="239" key="#com.intellij.ide.util.MemberChooser" timestamp="1602850843463">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="640" y="239" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1040@0.0.2560.1040" timestamp="1602850843463" />
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1602328457116">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="148" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1536.824@0.0.1536.824" timestamp="1602328457116" />
+    <state x="462" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1602145429261">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="462" y="448" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602145429261" />
+    <state x="120" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607348005317">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="120" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1607348005317" />
+    <state x="370" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602845118894">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="370" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602845118894" />
+    <state x="419" y="185" width="489" height="536" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1607347928806">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="251" y="147" width="489" height="536" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1602329948749" />
+    <state x="419" y="185" width="588" height="676" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1607347928806" />
+    <state x="220" y="278" key="AndroidCreateResourceFileDialog" timestamp="1602853132764">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="220" y="278" key="AndroidCreateResourceFileDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602853132764" />
+    <state x="1524" y="306" key="AndroidCreateXmlResourceDialog" timestamp="1607344956412">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1524" y="306" key="AndroidCreateXmlResourceDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1607344956412" />
+    <state x="184" y="47" key="CommitChangelistDialog2" timestamp="1605905396127">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="45" y="10" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1602335391469" />
+    <state x="184" y="47" key="CommitChangelistDialog2/0.0.2560.1040@0.0.2560.1040" timestamp="1605905396127" />
+    <state x="420" y="278" key="FileChooserDialogImpl" timestamp="1607342310407">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="420" y="278" key="FileChooserDialogImpl/0.0.2560.1040@0.0.2560.1040" timestamp="1607342310407" />
+    <state width="2517" height="209" key="GridCell.Tab.0.bottom" timestamp="1606681056015">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1491" height="209" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606583111281" />
+    <state width="2517" height="209" key="GridCell.Tab.0.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1606681056015" />
+    <state width="2517" height="209" key="GridCell.Tab.0.center" timestamp="1606681056015">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1491" height="209" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606583111280" />
+    <state width="2517" height="209" key="GridCell.Tab.0.center/0.0.2560.1040@0.0.2560.1040" timestamp="1606681056015" />
+    <state width="2517" height="209" key="GridCell.Tab.0.left" timestamp="1606681056015">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1491" height="209" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606583111280" />
+    <state width="2517" height="209" key="GridCell.Tab.0.left/0.0.2560.1040@0.0.2560.1040" timestamp="1606681056015" />
+    <state width="2517" height="209" key="GridCell.Tab.0.right" timestamp="1606681056015">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1491" height="209" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606583111280" />
+    <state width="2517" height="209" key="GridCell.Tab.0.right/0.0.2560.1040@0.0.2560.1040" timestamp="1606681056015" />
+    <state width="1248" height="333" key="GridCell.Tab.1.bottom" timestamp="1603892319127">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1491" height="252" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1602413895069" />
+    <state width="1248" height="333" key="GridCell.Tab.1.bottom/0.0.2560.1040@0.0.2560.1040" timestamp="1603892319127" />
+    <state width="1248" height="333" key="GridCell.Tab.1.center" timestamp="1603892319126">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1491" height="252" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1602413895069" />
+    <state width="1248" height="333" key="GridCell.Tab.1.center/0.0.2560.1040@0.0.2560.1040" timestamp="1603892319126" />
+    <state width="1248" height="333" key="GridCell.Tab.1.left" timestamp="1603892319126">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1491" height="252" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1602413895069" />
+    <state width="1248" height="333" key="GridCell.Tab.1.left/0.0.2560.1040@0.0.2560.1040" timestamp="1603892319126" />
+    <state width="1248" height="333" key="GridCell.Tab.1.right" timestamp="1603892319126">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state width="1491" height="252" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1602413895069" />
+    <state width="1248" height="333" key="GridCell.Tab.1.right/0.0.2560.1040@0.0.2560.1040" timestamp="1603892319126" />
+    <state x="365" y="233" key="RollbackChangesDialog" timestamp="1604696754603">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="365" y="233" key="RollbackChangesDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1604696754603" />
+    <state x="781" y="162" key="SettingsEditor" timestamp="1607080475471">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="781" y="162" key="SettingsEditor/0.0.2560.1040@0.0.2560.1040" timestamp="1607080475471" />
+    <state x="872" y="252" key="Vcs.Push.Dialog.v2" timestamp="1605905401023">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="872" y="252" key="Vcs.Push.Dialog.v2/0.0.2560.1040@0.0.2560.1040" timestamp="1605905401023" />
+    <state x="461" y="192" key="chooseDestDirectoryDialog" timestamp="1606577543318">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="461" y="192" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1606577543318" />
+    <state x="1616" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1607342302003">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="930" y="272" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1606577407161" />
+    <state x="1616" y="343" key="com.intellij.ide.util.TipDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1607342302003" />
+    <state x="326" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1602330982874">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="326" y="148" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1602330982874" />
+    <state x="1363" y="14" width="1052" height="1026" key="dock-window-1" timestamp="1607345089340">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="1363" y="14" width="1052" height="1026" key="dock-window-1/0.0.2560.1040@0.0.2560.1040" timestamp="1607345089340" />
+    <state x="202" y="203" width="611" height="534" key="find.popup" timestamp="1606582891605">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="202" y="203" width="611" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1606582891605" />
+    <state x="336" y="256" width="625" height="534" key="find.popup/0.0.2560.1040@0.0.2560.1040" timestamp="1603892243672" />
+    <state x="414" y="116" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1606577543343">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="414" y="116" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1606577543343" />
+    <state x="363" y="165" key="refactoring.ChangeSignatureDialog" timestamp="1602152718581">
+      <screen x="0" y="0" width="2560" height="1040" />
+    </state>
+    <state x="363" y="165" key="refactoring.ChangeSignatureDialog/0.0.2560.1040@0.0.2560.1040" timestamp="1602152718581" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="app">
+        <watch expression="scene" language="kotlin" />
+        <watch expression="restoreNode" language="kotlin" />
+        <watch expression="restorableDeviceIds" language="kotlin" />
+        <watch expression="devices" language="kotlin" />
+        <watch expression="devices.value" language="kotlin" />
+        <watch expression="firstRun" language="kotlin" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="knownFile1" value="file://$PROJECT_DIR$/../fdsa.suml" />
+      <option name="knownFile2" value="file://$PROJECT_DIR$/../gre.suml" />
+      <option name="knownFile0" value="file://$PROJECT_DIR$/../Whole Project.suml" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>

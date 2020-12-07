@@ -6,9 +6,14 @@ import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
+import gb.dom55.bme.smarthome.Model.Devices.*
 import gb.dom55.bme.smarthomepicontroller.model.notification.NotificationPropertyBase
 import gb.dom55.bme.smarthomepicontroller.DeviceConnectionManager
 import gb.dom55.bme.smarthomepicontroller.TCP_PORT
+import gb.dom55.bme.smarthomepicontroller.model.devices.CoffeeMaker
+import gb.dom55.bme.smarthomepicontroller.model.devices.IrRemote
+import gb.dom55.bme.smarthomepicontroller.model.devices.RgbLight
+import gb.dom55.bme.smarthomepicontroller.model.devices.Thermostat
 import gb.dom55.bme.smarthomepicontroller.model.notification.BooleanNotificationProperty
 import gb.dom55.bme.smarthomepicontroller.model.notification.IntegerNotificationProperty
 import kotlinx.coroutines.Dispatchers
@@ -186,5 +191,38 @@ abstract class AbstractDevice(
             val notificationMessage = notificationMessage
             val uid = userId
         })
+    }
+
+    companion object {
+        // Always use this function when a device class is needed from a DeviceType
+        // Never copy this elsewhere, this must be the single point where this choice happens
+        fun getDeviceFromType(deviceType: DeviceType, deviceId: String, friendlyId: String) : AbstractDevice {
+            return when(deviceType) {
+                DeviceType.RGBLIGHT -> RgbLight(deviceId, friendlyId)
+                DeviceType.LIGHT -> Light(deviceId, friendlyId)
+                DeviceType.DIMMABLE_LIGHT -> DimmableLight(deviceId, friendlyId)
+                DeviceType.BOOL_SENSOR -> BooleanSensor(deviceId, friendlyId)
+                DeviceType.INT_SENSOR -> IntegerSensor(deviceId, friendlyId)
+                DeviceType.KETTLE -> Light(deviceId, friendlyId)
+                DeviceType.SOCKET -> Light(deviceId, friendlyId)
+                DeviceType.AIR_CON -> Light(deviceId, friendlyId)
+                DeviceType.DOOR_LOCK -> Light(deviceId, friendlyId)
+                DeviceType.IR_REMOTE -> IrRemote(deviceId, friendlyId)
+                DeviceType.RGB_IR_REMOTE -> IrRemote(deviceId, friendlyId)
+                DeviceType.TV_REMOTE -> IrRemote(deviceId, friendlyId)
+                DeviceType.COFFEE -> CoffeeMaker(deviceId, friendlyId)
+                DeviceType.BLINDS -> DimmableLight(deviceId, friendlyId)
+                DeviceType.RADIATOR -> DimmableLight(deviceId, friendlyId)
+                DeviceType.DOOR_SENSOR -> BooleanSensor(deviceId, friendlyId)
+                DeviceType.MOTION_SENSOR -> BooleanSensor(deviceId, friendlyId)
+                DeviceType.WATER_PRESENCE_SENSOR -> BooleanSensor(deviceId, friendlyId)
+                DeviceType.CELSIUS_SENSOR -> IntegerSensor(deviceId, friendlyId)
+                DeviceType.HUMIDITY_SENSOR -> IntegerSensor(deviceId, friendlyId)
+                DeviceType.WATER_LEVEL_SENSOR -> IntegerSensor(deviceId, friendlyId)
+                DeviceType.MOISTURE_SENSOR -> IntegerSensor(deviceId, friendlyId)
+                DeviceType.THERMOSTAT -> Thermostat(deviceId, friendlyId)
+                DeviceType.NULL_DEVICE -> NullDevice()
+            }
+        }
     }
 }
