@@ -65,6 +65,7 @@ class IntegerSensor(uid: String = "",
         )
     }
 
+    @Suppress("unused")
     private inner class FirebaseIntegerSensor(
             var uid: String = "",
             var deviceid: String = "",

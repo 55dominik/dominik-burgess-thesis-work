@@ -1,7 +1,6 @@
 package gb.dom55.bme.smarthomepicontroller.model.notification
 
 import com.google.firebase.database.DataSnapshot
-import com.google.firebase.database.FirebaseDatabase
 
 class BooleanNotificationProperty(
         devicePropertyNodeName: String,

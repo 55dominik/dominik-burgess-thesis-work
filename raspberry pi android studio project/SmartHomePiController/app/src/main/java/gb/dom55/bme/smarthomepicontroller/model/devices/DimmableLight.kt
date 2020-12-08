@@ -1,6 +1,5 @@
 package gb.dom55.bme.smarthome.Model.Devices
 
-import android.util.Log
 import com.google.firebase.database.DataSnapshot
 import gb.dom55.bme.smarthomepicontroller.model.AbstractDevice
 import gb.dom55.bme.smarthomepicontroller.model.DeviceType
@@ -31,6 +30,7 @@ class DimmableLight(deviceid: String, connectionCode: String)
         setFirebase()
     }
 
+    @Suppress("unused")
     @Serializable
     class FirebaseDimmableLight : FirebaseDevice() {
         var uid: String =""

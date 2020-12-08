@@ -1,7 +1,6 @@
 package gb.dom55.bme.smarthome.nearby
 
 import android.content.Context
-import android.security.keystore.KeyProperties
 import android.util.Base64
 import android.util.Log
 import com.google.android.gms.nearby.Nearby
@@ -89,7 +88,7 @@ class NearbyDiscovererManager(var context: Context, val listener: NearbyEventLis
             val fact = KeyFactory.getInstance(KEY_FACTORY_ALGORITHM)
             publicKey = fact.generatePublic(spec)
         } catch (e: GeneralSecurityException) {
-            e.printStackTrace();
+            e.printStackTrace()
         }
 
         val cipher: Cipher = Cipher.getInstance(CIPHER_TRANSFORMATION)

@@ -71,6 +71,7 @@ class BooleanSensor(uid: String = "",
     }
 
     //this class is required to write to firebase, read can be done into BooleanSensor()
+    @Suppress("unused")
     @IgnoreExtraProperties
     private inner class FirebaseBooleanSensor(
             var uid: String = "",

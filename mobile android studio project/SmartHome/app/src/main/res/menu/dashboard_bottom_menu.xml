@@ -2,16 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/navigationDevices"
-        android:title="Devices"
+        android:title="@string/nav_devices"
         android:icon="@drawable/ic_device_white"/>
 
     <item
         android:id="@+id/navigationScenes"
-        android:title="Scenes"
+        android:title="@string/nav_scenes"
         android:icon="@drawable/ic_scene_white"/>
 
     <item
         android:id="@+id/navigationSettings"
-        android:title="Settings"
+        android:title="@string/nav_settings"
         android:icon="@drawable/baseline_settings_white_48"/>
 </menu>

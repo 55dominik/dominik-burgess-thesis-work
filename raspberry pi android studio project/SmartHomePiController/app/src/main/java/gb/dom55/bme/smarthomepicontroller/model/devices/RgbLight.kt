@@ -30,6 +30,7 @@ class RgbLight(deviceid: String, friendlyId: String)
         setFirebase()
     }
 
+    @Suppress("unused")
     @Serializable
     class FirebaseRgbLight : FirebaseDevice() {
         var uid: String =""

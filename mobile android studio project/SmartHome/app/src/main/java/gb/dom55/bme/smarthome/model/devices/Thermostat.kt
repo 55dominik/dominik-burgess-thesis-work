@@ -67,6 +67,7 @@ class Thermostat(uid: String = "",
         )
     }
 
+    @Suppress("unused")
     private inner class FirebaseThermostat(
             var uid: String = "",
             var deviceid: String = "",

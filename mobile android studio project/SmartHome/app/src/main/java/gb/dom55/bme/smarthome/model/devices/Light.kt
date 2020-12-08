@@ -49,6 +49,7 @@ class Light(
         return mutableListOf()
     }
 
+    @Suppress("unused")
     @IgnoreExtraProperties
     private inner class FirebaseLight(
             var uid: String = "",

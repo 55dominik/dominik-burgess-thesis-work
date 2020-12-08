@@ -24,13 +24,13 @@ class CoffeeMaker(uid: String = "",
         return CoffeeMaker(userId, deviceId, name, deviceType)
     }
 
-    override fun getType() = deviceType;
+    override fun getType() = deviceType
 
     override fun getAssociatedFragment(): DeviceControlFragmentBase {
         return CoffeeMakerControlFragment()
     }
 
-    override fun hasStatusView() = true;
+    override fun hasStatusView() = true
     override fun hasDashboardView() = true
 
     override fun getDataClassFB(): FirebaseDevice {
@@ -64,6 +64,7 @@ class CoffeeMaker(uid: String = "",
         )
     }
 
+    @Suppress("unused")
     @IgnoreExtraProperties
     private inner class FirebaseCoffeeMaker(
             var uid: String = "",

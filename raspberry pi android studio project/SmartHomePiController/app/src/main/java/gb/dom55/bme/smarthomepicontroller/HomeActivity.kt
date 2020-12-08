@@ -2,7 +2,6 @@ package gb.dom55.bme.smarthomepicontroller
 
 import android.app.Activity
 import android.os.Bundle
-import android.util.Log
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import kotlinx.coroutines.Dispatchers
@@ -11,8 +10,6 @@ import kotlinx.coroutines.launch
 
 
 class HomeActivity : Activity(), LoggedInListener {
-
-    private val TAG = "HomeActivity"
 
     private lateinit var uid: String
     private lateinit var userDevicesRef: DatabaseReference

@@ -40,6 +40,7 @@ class CoffeeMaker(deviceid: String, connectionCode: String)
         }
     }
 
+    @Suppress("unused")
     @Serializable
     class FirebaseCoffeeMaker : FirebaseDevice() {
         var uid: String =""

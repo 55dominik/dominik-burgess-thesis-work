@@ -12,7 +12,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginBottom="32dp"
         android:fontFamily="sans-serif-medium"
-        android:text="Create account"
+        android:text="@string/reg_create_account"
         style="@style/BgTextView"
         android:textAlignment="viewStart"
         android:textSize="32sp"

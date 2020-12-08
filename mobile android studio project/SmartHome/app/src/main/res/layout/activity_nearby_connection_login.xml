@@ -15,7 +15,8 @@
         android:scaleType="fitStart"
         android:src="?attr/headerImage"
         tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="324dp" />
+        tools:layout_editor_absoluteY="324dp"
+        tools:ignore="ContentDescription" />
     <TextView
         android:id="@+id/nearbyLabel"
         android:layout_width="wrap_content"

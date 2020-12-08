@@ -1,5 +1,6 @@
 package gb.dom55.bme.smarthome.dashboard.adapters
 
+import android.annotation.SuppressLint
 import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
@@ -138,6 +139,7 @@ class DevicesAdapter(val context: Context) : RecyclerView.Adapter<BaseViewHolder
         var image: ImageView = itemView.findViewById(R.id.testImage)
         var switch: Switch = itemView.findViewById(R.id.testSwitch)
 
+        @SuppressLint("SetTextI18n")
         override fun setState(deviceId: String) {
             switch.setText("Placeholder")
             switch.setOnCheckedChangeListener { _, isChecked ->

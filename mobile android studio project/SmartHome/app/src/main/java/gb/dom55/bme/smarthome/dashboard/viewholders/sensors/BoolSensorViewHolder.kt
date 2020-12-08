@@ -11,6 +11,7 @@ import gb.dom55.bme.smarthome.model.DeviceType
 import gb.dom55.bme.smarthome.model.devices.BooleanSensor
 import gb.dom55.bme.smarthome.R
 
+@Suppress("UNNECESSARY_SAFE_CALL")
 class BoolSensorViewHolder(itemView: View, var clickListener: DeviceItemClickListener? = null) : BaseViewHolder(itemView) {
 
     var value: TextView = itemView.findViewById(R.id.statusBoolValue)

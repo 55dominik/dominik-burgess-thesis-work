@@ -24,7 +24,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Coffee maker" />
+        tools:text="Coffee maker"
+        android:inputType="text"
+        tools:ignore="Autofill,LabelFor" />
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline6"
@@ -69,7 +71,8 @@
         app:layout_constraintEnd_toStartOf="@+id/cupStatusImage"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/waterLevelLabel" />
+        app:layout_constraintTop_toBottomOf="@+id/waterLevelLabel"
+        tools:ignore="ContentDescription" />
 
     <ImageView
         android:id="@+id/cupStatusImage"
@@ -81,7 +84,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/waterStatusImage"
-        app:layout_constraintTop_toBottomOf="@+id/waterLevelLabel" />
+        app:layout_constraintTop_toBottomOf="@+id/waterLevelLabel"
+        tools:ignore="ContentDescription" />
 
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/makingAnimation"

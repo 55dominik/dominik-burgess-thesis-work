@@ -32,7 +32,8 @@
             tools:text="Name"
             app:layout_constraintEnd_toStartOf="@+id/intNotifActiveSwitch"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="Autofill,LabelFor" />
 
         <Switch
             android:id="@+id/intNotifActiveSwitch"
@@ -110,7 +111,8 @@
             android:inputType="number"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@+id/intNotifValueLabel"
-            app:layout_constraintTop_toBottomOf="@+id/intNotifRadioGroup" />
+            app:layout_constraintTop_toBottomOf="@+id/intNotifRadioGroup"
+            tools:ignore="Autofill,LabelFor" />
 
         <TextView
             android:id="@+id/intNotifMessageLabel"

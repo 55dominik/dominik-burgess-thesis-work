@@ -166,10 +166,10 @@ public class LabeledSwitch extends ToggleableView {
 
             canvas.drawArc(leftFgArc, 90, 180, false, paint);
             canvas.drawArc(rightFgArc, 90, -180, false, paint);
-            canvas.drawRect(outerRadii, padding / 10, (width - outerRadii), height - (padding / 10), paint);
+            canvas.drawRect(outerRadii, padding / 10.0f, (width - outerRadii), height - (padding / 10.0f), paint);
 
             int alpha = (int) (((thumbBounds.centerX() - thumbOffCenterX) / (thumbOnCenterX - thumbOffCenterX)) * 255);
-            alpha = (alpha < 0 ? 0 : (alpha > 255 ? 255 : alpha));
+            alpha = (alpha < 0 ? 0 : (Math.min(alpha, 255)));
             int onColor;
 
             if(isEnabled()) {
@@ -184,13 +184,13 @@ public class LabeledSwitch extends ToggleableView {
             canvas.drawRect(outerRadii, 0, (width - outerRadii), height, paint);
 
             alpha = (int) (((thumbOnCenterX - thumbBounds.centerX()) / (thumbOnCenterX - thumbOffCenterX)) * 255);
-            alpha = (alpha < 0 ? 0 : (alpha > 255 ? 255 : alpha));
+            alpha = (alpha < 0 ? 0 : (Math.min(alpha, 255)));
             int offColor = Color.argb(alpha, Color.red(colorOff), Color.green(colorOff), Color.blue(colorOff));
             paint.setColor(offColor);
 
             canvas.drawArc(leftFgArc, 90, 180, false, paint);
             canvas.drawArc(rightFgArc, 90, -180, false, paint);
-            canvas.drawRect(outerRadii, padding / 10, (width - outerRadii), height - (padding / 10), paint);
+            canvas.drawRect(outerRadii, padding / 10.0f, (width - outerRadii), height - (padding / 10.0f), paint);
         }
 
 //      Drawing Switch Labels here
@@ -198,7 +198,7 @@ public class LabeledSwitch extends ToggleableView {
         float textCenter = paint.measureText(MAX_CHAR) / 2;
         if(isOn) {
             int alpha = (int)((((width >>> 1) - thumbBounds.centerX()) / ((width >>> 1) - thumbOffCenterX)) * 255);
-            alpha = (alpha < 0 ? 0 : (alpha > 255 ? 255 : alpha));
+            alpha = (alpha < 0 ? 0 : (Math.min(alpha, 255)));
             int onColor = Color.argb(alpha, Color.red(colorOn), Color.green(colorOn), Color.blue(colorOn));
             paint.setColor(onColor);
 
@@ -206,7 +206,7 @@ public class LabeledSwitch extends ToggleableView {
             canvas.drawText(labelOff, (padding + (padding >>> 1)) + (thumbRadii << 1) + centerX - (paint.measureText(labelOff) / 2), (height >>> 1) + textCenter, paint);
 
             alpha = (int)(((thumbBounds.centerX() - (width >>> 1)) / (thumbOnCenterX - (width >>> 1))) * 255);
-            alpha = (alpha < 0 ? 0 : (alpha > 255 ? 255 : alpha));
+            alpha = (alpha < 0 ? 0 : (Math.min(alpha, 255)));
             int offColor = Color.argb(alpha, Color.red(colorOff), Color.green(colorOff), Color.blue(colorOff));
             paint.setColor(offColor);
 
@@ -216,7 +216,7 @@ public class LabeledSwitch extends ToggleableView {
             canvas.drawText(labelOn, padding + centerX - (paint.measureText(labelOn) / 2), (height >>> 1) + textCenter, paint);
         } else {
             int alpha = (int)(((thumbBounds.centerX() - (width >>> 1)) / (thumbOnCenterX - (width >>> 1))) * 255);
-            alpha = (alpha < 0 ? 0 : (alpha > 255 ? 255 : alpha));
+            alpha = (alpha < 0 ? 0 : (Math.min(alpha, 255)));
             int offColor = Color.argb(alpha, Color.red(colorOff), Color.green(colorOff), Color.blue(colorOff));
             paint.setColor(offColor);
 
@@ -225,7 +225,7 @@ public class LabeledSwitch extends ToggleableView {
             canvas.drawText(labelOn, padding + centerX - (paint.measureText(labelOn) / 2), (height >>> 1) + textCenter, paint);
 
             alpha = (int)((((width >>> 1) - thumbBounds.centerX()) / ((width >>> 1) - thumbOffCenterX)) * 255);
-            alpha = (alpha < 0 ? 0 : (alpha > 255 ? 255 : alpha));
+            alpha = (alpha < 0 ? 0 : (Math.min(alpha, 255)));
             int onColor;
             if(isEnabled()) {
                 onColor = Color.argb(alpha, Color.red(colorOn), Color.green(colorOn), Color.blue(colorOn));
@@ -241,13 +241,13 @@ public class LabeledSwitch extends ToggleableView {
 //      Drawing Switch Thumb here
         {
             int alpha = (int) (((thumbBounds.centerX() - thumbOffCenterX) / (thumbOnCenterX - thumbOffCenterX)) * 255);
-            alpha = (alpha < 0 ? 0 : (alpha > 255 ? 255 : alpha));
+            alpha = (alpha < 0 ? 0 : (Math.min(alpha, 255)));
             int offColor = Color.argb(alpha, Color.red(colorOff), Color.green(colorOff), Color.blue(colorOff));
             paint.setColor(offColor);
 
             canvas.drawCircle(thumbBounds.centerX(), thumbBounds.centerY(), thumbRadii, paint);
             alpha = (int) (((thumbOnCenterX - thumbBounds.centerX()) / (thumbOnCenterX - thumbOffCenterX)) * 255);
-            alpha = (alpha < 0 ? 0 : (alpha > 255 ? 255 : alpha));
+            alpha = (alpha < 0 ? 0 : (Math.min(alpha, 255)));
             int onColor;
             if(isEnabled()) {
                 onColor = Color.argb(alpha, Color.red(colorOn), Color.green(colorOn), Color.blue(colorOn));
@@ -305,8 +305,8 @@ public class LabeledSwitch extends ToggleableView {
         leftBgArc.set(0,0, outerRadii << 1, height);
         rightBgArc.set(width - (outerRadii << 1),0, width, height);
 
-        leftFgArc.set(padding / 10,padding / 10, (outerRadii << 1)- (padding / 10), height - (padding / 10));
-        rightFgArc.set(width - (outerRadii << 1) + (padding / 10),padding / 10, width - (padding / 10), height - (padding / 10));
+        leftFgArc.set(padding / 10.0f,padding / 10.0f, (outerRadii << 1)- (padding / 10.0f), height - (padding / 10.0f));
+        rightFgArc.set(width - (outerRadii << 1) + (padding / 10.0f),padding / 10.0f, width - (padding / 10.0f), height - (padding / 10.0f));
     }
 
     /**

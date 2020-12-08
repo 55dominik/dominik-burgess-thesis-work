@@ -1,25 +1,16 @@
 package gb.dom55.bme.smarthomepicontroller
 
-import android.util.Log
 import com.google.firebase.database.DataSnapshot
 import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.ValueEventListener
-import gb.dom55.bme.smarthome.Model.Devices.BooleanSensor
-import gb.dom55.bme.smarthome.Model.Devices.DimmableLight
-import gb.dom55.bme.smarthome.Model.Devices.IntegerSensor
-import gb.dom55.bme.smarthome.Model.Devices.Light
 import gb.dom55.bme.smarthomepicontroller.model.AbstractDevice
 import gb.dom55.bme.smarthomepicontroller.model.DeviceType
-import gb.dom55.bme.smarthomepicontroller.model.devices.CoffeeMaker
-import gb.dom55.bme.smarthomepicontroller.model.devices.IrRemote
-import gb.dom55.bme.smarthomepicontroller.model.devices.RgbLight
-import gb.dom55.bme.smarthomepicontroller.model.devices.Thermostat
+
 import org.json.JSONObject
 import java.net.InetAddress
 
 object DeviceManager {
     private val devices = mutableListOf<AbstractDevice>()
-    private const val TAG = "DeviceManager"
 
     fun addDeviceFromUserNode(snapshot: DataSnapshot) {
         if (!snapshot.child("id").exists() ||

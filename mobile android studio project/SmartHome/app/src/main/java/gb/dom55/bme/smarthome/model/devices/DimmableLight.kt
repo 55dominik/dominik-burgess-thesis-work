@@ -46,6 +46,7 @@ class DimmableLight(
         return snapshot.getValue(DimmableLight::class.java)!!
     }
 
+    @Suppress("unused")
     @IgnoreExtraProperties
     private inner class FirebaseDimmableLight(
             var uid: String = "",

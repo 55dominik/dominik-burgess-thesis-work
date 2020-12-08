@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconDuplicatesConfig">
+        <ignore path="src/main/res/drawable-xxxhdpi/ic_blinds_middle.png" />
+        <ignore path="src/main/res/drawable-xxxhdpi/ic_blinds_middle.png" />
+    </issue>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/ic_blinds_high.png" />
+    </issue>
+</lint>

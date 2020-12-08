@@ -181,6 +181,7 @@ abstract class AbstractDevice(
     open fun getBooleanPropertyFromString(propertyName: String): Boolean? { return null }
     open fun getIntegerPropertyFromString(propertyName: String): Int? { return null }
 
+    @Suppress("unused")
     private fun sendNotification(notificationHeader: String, notificationMessage: String) {
         // Removal of notification from firebase not necessary here
         // The set notification value will be removed by Firebase Cloud Functions

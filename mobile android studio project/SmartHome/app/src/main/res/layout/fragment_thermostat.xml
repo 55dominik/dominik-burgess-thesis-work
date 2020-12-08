@@ -35,7 +35,9 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:text="Bedroom thermostat" />
+        tools:text="Bedroom thermostat"
+        android:inputType="text"
+        tools:ignore="Autofill,LabelFor" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -64,7 +66,7 @@
                     style="@style/BgTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Current temperature"
+                    android:text="@string/temp_sensor_current_temperature"
                     android:textAlignment="center"
                     android:textSize="18sp" />
 
@@ -84,7 +86,7 @@
                     style="@style/BgTextView"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Target temperature"
+                    android:text="@string/thermostat_target_temperature"
                     android:textAlignment="center"
                     android:textSize="18sp" />
 

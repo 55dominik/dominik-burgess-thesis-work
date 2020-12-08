@@ -10,6 +10,7 @@ import gb.dom55.bme.smarthome.dashboard.listeners.DeviceItemClickListener
 import gb.dom55.bme.smarthome.model.devices.CoffeeMaker
 import gb.dom55.bme.smarthome.R
 
+@Suppress("UNNECESSARY_SAFE_CALL")
 class CoffeeSensorViewHolder(itemView: View, var clickListener: DeviceItemClickListener? = null)
     : BaseViewHolder(itemView) {
 

@@ -1,8 +1,6 @@
 package gb.dom55.bme.smarthomepicontroller.model.devices
 
 import com.google.firebase.database.DataSnapshot
-import gb.dom55.bme.smarthome.Model.Devices.DimmableLight
-import gb.dom55.bme.smarthome.Model.Devices.IntegerSensor
 import gb.dom55.bme.smarthomepicontroller.model.AbstractDevice
 import gb.dom55.bme.smarthomepicontroller.model.DeviceType
 import gb.dom55.bme.smarthomepicontroller.model.FirebaseDevice
@@ -47,6 +45,7 @@ class Thermostat(deviceid: String, connectionCode: String)
         }
     }
 
+    @Suppress("unused")
     @Serializable
     class FirebaseThermostat : FirebaseDevice() {
         var uid: String =""

@@ -23,7 +23,8 @@
             android:scaleType="centerInside"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            style="@style/ButtonPower" />
+            style="@style/ButtonPower"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/dashItemCoffeeName"

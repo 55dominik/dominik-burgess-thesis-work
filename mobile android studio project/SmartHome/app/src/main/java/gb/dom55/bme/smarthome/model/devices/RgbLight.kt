@@ -49,6 +49,7 @@ class RgbLight(uid: String = "", deviceid: String = "", name: String = "")
         return mutableListOf()
     }
 
+    @Suppress("unused")
     @IgnoreExtraProperties
     private inner class FirebaseRgbLight(
             var uid: String,

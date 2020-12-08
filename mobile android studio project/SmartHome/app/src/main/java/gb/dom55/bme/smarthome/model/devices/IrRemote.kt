@@ -166,6 +166,7 @@ class IrRemote(
         return mutableListOf()
     }
 
+    @Suppress("unused")
     @IgnoreExtraProperties
     private inner class FirebaseIrRemote(
             var uid: String = "",

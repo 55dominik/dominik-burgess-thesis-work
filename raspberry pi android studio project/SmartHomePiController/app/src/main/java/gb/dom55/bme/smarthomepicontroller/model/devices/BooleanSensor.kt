@@ -4,7 +4,6 @@ import com.google.firebase.database.DataSnapshot
 import gb.dom55.bme.smarthomepicontroller.model.FirebaseDevice
 import gb.dom55.bme.smarthomepicontroller.model.AbstractDevice
 import gb.dom55.bme.smarthomepicontroller.model.DeviceType
-import gb.dom55.bme.smarthomepicontroller.model.devices.CoffeeMaker
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
 import kotlinx.serialization.json.JsonConfiguration
@@ -44,6 +43,7 @@ class BooleanSensor(deviceid: String, connectionCode: String)
         }
     }
 
+    @Suppress("unused")
     @Serializable
     class FirebaseBooleanSensor : FirebaseDevice() {
         var uid: String =""

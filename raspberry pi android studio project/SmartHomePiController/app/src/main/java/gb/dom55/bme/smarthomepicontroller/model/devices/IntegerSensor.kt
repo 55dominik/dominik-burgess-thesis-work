@@ -49,6 +49,7 @@ class IntegerSensor(deviceid: String, connectionCode: String)
         }
     }
 
+    @Suppress("unused")
     @Serializable
     class FirebaseIntegerSensor : FirebaseDevice() {
         var uid: String =""

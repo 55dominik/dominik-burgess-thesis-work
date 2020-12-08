@@ -1,6 +1,5 @@
 package gb.dom55.bme.smarthomepicontroller
 
-import android.util.Log
 import com.stealthcopter.networktools.SubnetDevices
 import com.stealthcopter.networktools.subnet.Device
 import kotlinx.coroutines.Dispatchers

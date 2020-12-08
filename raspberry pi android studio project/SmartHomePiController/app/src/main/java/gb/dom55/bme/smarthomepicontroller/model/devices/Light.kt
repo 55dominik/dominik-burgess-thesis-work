@@ -30,6 +30,7 @@ class Light(deviceid: String, connectionCode: String)
         setFirebase()
     }
 
+    @Suppress("unused")
     @Serializable
     class FirebaseLight: FirebaseDevice() {
         var uid: String =""
