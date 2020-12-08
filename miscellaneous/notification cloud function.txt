@@ -1,5 +1,9 @@
 // "index.js" file to be put in "functions" folder of firebase CLI directory
 
+// Cloud functions do not have to be set up if using the provided APK files or
+// building the provided Android Studio projects. Therefore this file is only
+// included to show the cloud function that is not available to see publicly
+// on the Firebase console.
 
 const functions = require('firebase-functions');
 
