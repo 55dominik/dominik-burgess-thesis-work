@@ -1,5 +1,13 @@
-// The following JSON tree must be copied into the Firebase project's Realtime Database rules on the Firebase console
-// Alternatively: allow all read and write operations on the database IF ONLY USED FOR TESTING.
+// Database rules do not have to be set up if using the provided APK files or
+// building the provided Android Studio projects. Therefore this file is only
+// included to show the database rules that are not available to see publicly
+// on the Firebase console.
+
+// If using one's own Firebase project:
+// The following JSON tree must be copied into the Firebase project's Realtime 
+// Database rules on the Firebase console.
+// Alternatively (IF ONLY USED FOR TESTING): 
+// 	allow all read and write operations on the database.
 
 {
 	"rules": 
