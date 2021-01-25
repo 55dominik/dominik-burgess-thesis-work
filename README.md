@@ -1,4 +1,5 @@
-# Dominik Burgess Thesis Work
+# Development of ESP8266, Raspberry Pi and Android based, remotely controllable smart home system
+
 Thesis of Dominik Burgess
 
 Text from install.txt:
