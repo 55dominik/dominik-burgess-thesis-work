@@ -8,10 +8,10 @@ Last updated: 25/01/2021
 ________________________________________________________
 ## Android application screenshots
 
-<p><img src="https://github.com/55dominik/dominik-burgess-thesis-work/blob/main/screenshots/Main%20dashboard.jpg" width="300">
-<img src="https://github.com/55dominik/dominik-burgess-thesis-work/blob/main/screenshots/Thermostat%20device%20control%20page.jpg" width="300">
-<img src="https://github.com/55dominik/dominik-burgess-thesis-work/blob/main/screenshots/Coffee%20maker%20device%20control%20page.jpg" width="300">
-<img src="https://github.com/55dominik/dominik-burgess-thesis-work/blob/main/screenshots/Notification%20customisation.jpg" width="300">
+<p><img src="https://github.com/55dominik/dominik-burgess-thesis-work/blob/main/screenshots/Main%20dashboard.jpg" width="230">
+<img src="https://github.com/55dominik/dominik-burgess-thesis-work/blob/main/screenshots/Thermostat%20device%20control%20page.jpg" width="230">
+<img src="https://github.com/55dominik/dominik-burgess-thesis-work/blob/main/screenshots/Coffee%20maker%20device%20control%20page.jpg" width="230">
+<img src="https://github.com/55dominik/dominik-burgess-thesis-work/blob/main/screenshots/Notification%20customisation.jpg" width="230">
 	</p>
 
 
