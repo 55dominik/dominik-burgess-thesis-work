@@ -1,14 +1,24 @@
 # Development of ESP8266, Raspberry Pi and Android based, remotely controllable smart home system
 
-Thesis of Dominik Burgess
+#### B.Sc. Computer Engineering thesis project
+##### By Dominik Burgess
 
-Text from install.txt:
-
-By: Dominik Burgess
-
-Last updated: 04/12/2020
+Last updated: 25/01/2021
 
 ________________________________________________________
+## Android application screenshots
+
+<p><img src="https://github.com/55dominik/dominik-burgess-thesis-work/blob/main/screenshots/Main%20dashboard.jpg" width="300">
+<img src="https://github.com/55dominik/dominik-burgess-thesis-work/blob/main/screenshots/Thermostat%20device%20control%20page.jpg" width="300">
+<img src="https://github.com/55dominik/dominik-burgess-thesis-work/blob/main/screenshots/Coffee%20maker%20device%20control%20page.jpg" width="300">
+<img src="https://github.com/55dominik/dominik-burgess-thesis-work/blob/main/screenshots/Notification%20customisation.jpg" width="300">
+	</p>
+
+
+
+## Text from install.txt:
+________________________________________________________
+
 1: Build or use pre-built Raspberry Pi app APK file
 
 	Build the APK file of the Raspberry Pi application using android studio.
